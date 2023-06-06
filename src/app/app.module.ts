@@ -9,6 +9,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { ListMoviesComponent } from './components/list-movies/list-movies.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { BaseLayoutAuthComponent } from './layout/base-layout-auth/base-layout-auth.component';
+import { SignupPageComponent } from './pages/signup-page/signup-page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { BaseLayoutAuthComponent } from './layout/base-layout-auth/base-layout-a
     ListMoviesComponent,
     LoginPageComponent,
     BaseLayoutAuthComponent,
+    SignupPageComponent,
   ],
   imports: [
     BrowserModule,
