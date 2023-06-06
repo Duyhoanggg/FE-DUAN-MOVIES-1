@@ -8,6 +8,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ListMoviesComponent } from './components/list-movies/list-movies.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { BaseLayoutAuthComponent } from './layout/base-layout-auth/base-layout-auth.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
     BannerComponent,
     ListMoviesComponent,
     LoginPageComponent,
+    BaseLayoutAuthComponent,
   ],
   imports: [
     BrowserModule,
