@@ -7,6 +7,7 @@ import { BaseLayoutClientComponent } from './layout/base-layout-client/base-layo
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { ListMoviesComponent } from './components/list-movies/list-movies.component';
+import { LoginPageComponent } from './pages/login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ListMoviesComponent } from './components/list-movies/list-movies.compon
     BaseLayoutClientComponent,
     HomePageComponent,
     BannerComponent,
-    ListMoviesComponent
+    ListMoviesComponent,
+    LoginPageComponent,
   ],
   imports: [
     BrowserModule,
